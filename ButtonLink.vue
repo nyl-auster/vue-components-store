@@ -7,7 +7,7 @@
 <script>
 export default {
   props: {
-    buttonClass: { type:String, default: 'is-primary' },
+    buttonClass: { type: String, default: 'is-primary' },
     to: { type: String | Array, default: '/' }
   },
   data () {
@@ -20,6 +20,6 @@ export default {
 
 <style scoped>
 .button {
-   margin-top:4vh;
+  margin-top: 4vh;
 }
 </style>
